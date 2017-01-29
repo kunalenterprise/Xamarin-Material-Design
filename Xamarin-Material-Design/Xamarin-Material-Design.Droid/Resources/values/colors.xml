@@ -7,4 +7,9 @@
   <color name="highlightColor">#243773</color>
   <color name="textColorWhite">#FFFFFF</color>
 
+
+  <!--Button Color-->
+  <color name="colorPrimaryDark">#689f38</color>
+  <color name="colorAccent">#ccff90</color>
+  <color name="textColor">#000000</color>
 </resources>

@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Xamarin_Material_Design.Droid.Xamarin_Material_Design.Droid" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="16" />
-  <application android:label="Xamarin_Material_Design.Droid" android:theme="@style/MaterialTheme"></application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.xamarin_material_design.droid" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="16" />
+    <application android:label="Xamarin_Material_Design.Droid" android:theme="@style/MaterialTheme" android:hardwareAccelerated="true">
+      
+    </application>
 </manifest>
