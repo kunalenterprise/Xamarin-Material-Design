@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
       <LinearLayout
        android:orientation="vertical"
@@ -18,57 +18,68 @@
       <android.support.v7.widget.AppCompatButton
           android:id="@+id/Tabs"
           android:layout_width="match_parent"
-          android:layout_height="60dp"
-          android:layout_marginTop="10dp"
-          android:textStyle="bold"
+          android:layout_height="80dp"
           android:textAllCaps="false"
-          android:textSize="24dp"
+          android:textSize="28dp"
+          android:text="Material Tabs"
           android:textColor="@color/textColorWhite"
-          android:background="#e6c300" />
+          android:background="#3399ff" />
 
       <android.support.v7.widget.AppCompatButton
          android:id="@+id/Tabs"
          android:layout_width="match_parent"
-         android:layout_height="40dp"
-         android:layout_marginTop="10dp"
-         android:textStyle="bold"
+         android:layout_height="80dp"
+         android:layout_marginTop="20dp"
          android:textAllCaps="false"
-         android:textSize="24dp"
+         android:textSize="28dp"
+         android:text="RecyclerView"
          android:textColor="@color/textColorWhite"
-         android:background="#e6c300" />
+         android:background="#F4C2C2" />
 
       <android.support.v7.widget.AppCompatButton
          android:id="@+id/Tabs"
          android:layout_width="match_parent"
-         android:layout_height="40dp"
-         android:layout_marginTop="10dp"
-         android:textStyle="bold"
+         android:layout_height="80dp"
+         android:layout_marginTop="20dp"
          android:textAllCaps="false"
-         android:textSize="24dp"
+         android:text="Toolbar"
+         android:textSize="28dp"
          android:textColor="@color/textColorWhite"
-         android:background="#e6c300" />
+         android:background="#FFBF00" />
 
       <android.support.v7.widget.AppCompatButton
          android:id="@+id/Tabs"
          android:layout_width="match_parent"
-         android:layout_height="40dp"
-         android:layout_marginTop="10dp"
-         android:textStyle="bold"
+         android:layout_height="80dp"
+         android:layout_marginTop="20dp"
          android:textAllCaps="false"
-         android:textSize="24dp"
+         android:text="Fab"
+         android:textSize="28dp"
          android:textColor="@color/textColorWhite"
-         android:background="#e6c300" />
+         android:background="#ff0000" />
 
       <android.support.v7.widget.AppCompatButton
          android:id="@+id/Tabs"
          android:layout_width="match_parent"
-         android:layout_height="40dp"
-         android:layout_marginTop="10dp"
-         android:textStyle="bold"
+         android:layout_height="80dp"
+         android:layout_marginTop="20dp"
          android:textAllCaps="false"
-         android:textSize="24dp"
+         android:text="Material Dialogs"
+         android:textSize="28dp"
          android:textColor="@color/textColorWhite"
-         android:background="#e6c300" />
+         android:background="#00b33c" />
+        
+      <android.support.v7.widget.AppCompatButton
+         android:id="@+id/Tabs"
+         android:layout_width="match_parent"
+         android:layout_height="80dp"
+         android:layout_marginTop="20dp"
+         android:layout_marginBottom="20dp"
+         android:textAllCaps="false"
+         android:text="Bottomsheet"
+         android:textSize="28dp"
+         android:textColor="@color/textColorWhite"
+         android:background="#00b33c" />
 
   </LinearLayout>
-</LinearLayout>
+</android.support.v4.widget.NestedScrollView>
